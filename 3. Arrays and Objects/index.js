@@ -14,9 +14,18 @@ let numbers = [
 
 // Todo 3.1 Get the first, 5th, and last items in the numbers array.
 // Your code here
+console.log(numbers[0], numbers[4], numbers[numbers.length - 1])
 
 // Todo 3.2 calculate the min, max, and the average of the numbers array
 // Your code here
+let max = 0;
+let min = 999;
+let total = 0;
+for (let i of numbers) {
+    
+}
+total += i; 
+console.log(total / numbers.length);
 
 // Checkpoint 3.1 How would you compare lists in python vs arrays in JavaScript
 // Answer: 
