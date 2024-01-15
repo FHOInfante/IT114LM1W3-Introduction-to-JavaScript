@@ -21,10 +21,10 @@ console.log(numbers[0], numbers[4], numbers[numbers.length - 1])
 let max = 0;
 let min = 999;
 let total = 0;
-for (let i of numbers) {
-    if (i > max) max = i;
-    if (i < min) min = i;
-    total += i;
+for (let number of numbers) {
+    if (number > max) max = number;
+    if (number < min) min = number;
+    total += number;
 }
 console.log('Max: ' + max + '\nMin: ' + min + '\nAverage: ' + total / numbers.length)
 
@@ -93,17 +93,26 @@ const courses = [
 
 // Todo 3.5 Calculate the total number of units you are taking this term using the array of objects.
 // Your code here
-totalUnits = 0;
+let totalUnits = 0;
 for (let course of courses){
     totalUnits += course.units
 }
 console.log(totalUnits)
 
 // Checkpoint 3.2 What would be the equivalent of objects in python? How would you compare them?
-// Answer: 
+// Answer: Dictionaries since it uses key pairs for the object
+
+
+// Checkpoint 3.2 What would be the equivalent of objects in python? How would you compare them?
+// Answer: Dictionaries since it uses key pairs for the object
 
 // Todo 3.6 Going back to the array of numbers, use the spread syntax to create a copy of the array with an additional number
 // Your code here
 
+const addNumber = [...numbers, 99];
+console.log(addNumber);
+
 // Todo 3.7 Going back to your IT114L object, extract the course code and units using the spread operator
 // Your code here
+const {coursecode, units} = IT114L;
+console.log("Course Code: " + coursecode + "\nUnits: " + units);

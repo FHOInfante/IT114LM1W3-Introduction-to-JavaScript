@@ -86,7 +86,7 @@ const denominator = Math.floor((Math.random() * 5)); // feel free to mock this v
 try{
     const quotient = numerator / denominator;
     if (denominator == 0) throw Error("Division by Zero");
-    else console.log('No Errors\n' + quotient);
+    else console.log(quotient);
 }
 
 catch(error){
