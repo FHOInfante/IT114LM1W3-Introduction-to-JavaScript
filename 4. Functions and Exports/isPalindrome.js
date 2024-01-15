@@ -1,6 +1,6 @@
 // Todo 4.6a Create a function called isPalindrome function which checks if the given word is a palindrome
 // What is a Palindrome? See here: https://en.wikipedia.org/wiki/Palindrome. Feel free to search for the implementation
-const isPalindrome = () => {
+function isPalindrome(word){
     let j = word.length - 1
     for (let i = 0; i < word.length / 2; i++) {
         if (word[i] != word[j]) {
