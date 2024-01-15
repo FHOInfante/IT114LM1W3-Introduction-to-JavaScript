@@ -76,11 +76,9 @@ console.log(PI);
 // Then, import and call the isPalindrome method here
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-//                              Still having errors
 import isPalindrome from "./isPalindrome.js";
 console.log(isPalindrome('snom'));
 console.log(isPalindrome('radar'));
-//                              Still having errors
 
 // Checkpoint 4.3 What does the require function and module.exports variable do?
 // Should we use it over the import and export keywords? Why? Research your answer.
