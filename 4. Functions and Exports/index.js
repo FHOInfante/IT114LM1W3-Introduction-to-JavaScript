@@ -68,7 +68,7 @@ console.log("Modified Numbers Array: ", increment);
 // Then, import and call the add method here and display the value of the PI constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-const { add, PI } = require("./mathUtils.js");
+import {add, PI} from "./mathUtils.js"
 console.log(add(2, 5));
 console.log(PI);
 

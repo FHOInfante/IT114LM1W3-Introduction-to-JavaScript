@@ -8,7 +8,4 @@ const PI = 3.141592653589793238462643383279502884197;
 // Todo 5.4.3 Export the function and constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 
-module.exports = {
-    add,
-    PI
-}
+export {add, PI}
